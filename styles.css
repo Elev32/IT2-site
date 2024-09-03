@@ -26,6 +26,11 @@ footer {
 	font-family: sans-serif;
 }
 
+.footlink:visited, .footlink {
+	color: white;
+	text-decoration-line: none;
+}
+
 h2 {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-weight: lighter;
@@ -120,11 +125,7 @@ h2 {
 	color: white;
   }
   
-  .container {
-	padding: 0px;
-  }
-  
-  .container::after, .row::after {
+	.row::after {
 	content: "";
 	clear: both;
 	display: table;
