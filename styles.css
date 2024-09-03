@@ -1,0 +1,100 @@
+body {
+	background-color: #f9feff;
+	margin: 0;
+}
+
+
+nav {
+	background-image: linear-gradient(darkslategray, black);
+	padding: 0.5em;
+	display: flex;
+	align-items: center;
+	box-shadow: #2e2e2ed5 0px 0px 10px;
+	position: relative;
+    border-bottom: solid 5px lightsteelblue;
+}
+
+footer {
+    background-color: darkslategrey;
+    color: white;
+    text-decoration-line: none;
+	text-align: center;
+    margin: 0px;
+	padding: 7px;
+	position: relative;
+	bottom: -100vh;
+}
+
+h2 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-weight: lighter;
+	font-size: 5vw;
+	color: darkslategrey;
+	text-shadow: darkslateblue 0px 0px 3px;
+	line-height: 140%;
+	position: relative;
+	top: 30vh;
+	left: 100px;
+	width: 60%;
+}
+
+.background {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.979)), url('textures/uhcyt2.png') no-repeat center center;
+	margin: -90px 0px;
+	height: 90vh;
+}
+
+.background2 {
+	background: linear-gradient(to bottom, rgb(1, 108, 196), rgba(255, 255, 255, 0.979)), no-repeat center center;
+	margin: -90px 0px;
+	height: 59vh;
+	padding: 18%;
+}
+
+.plan {
+	width: 124.3vh;
+	height: 91.9vh;
+	position: relative;
+	top: 0px;
+	margin-top: 30px;
+}
+
+
+.navtext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 20px
+}
+
+.logo {
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+#arrow {
+	color: darkslategrey;
+	text-shadow: darkslateblue 0px 0px 3px;
+	position: relative;
+	left: 50%;
+	bottom: -5vh;
+	font-size: 90px;
+	width: 19px;
+}
+
+#news {
+	position: relative;
+	left: 1vw;
+	top: 80vh;
+	color:black;
+	font-family: sans-serif;
+	font-size: 1vw;
+}
+
+#newslogo {
+	position: relative;
+	left: 8vw;
+	top: 76vh;
+}
+
