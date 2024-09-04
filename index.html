@@ -35,7 +35,13 @@
         <a href="https://teams.microsoft.com/l/channel/19%3Ad8e7af57bd4b4fd3aa248d30a9c80b50%40thread.tacv2/General?groupId=7065731e-8835-4aed-9d9f-e8580064bc42&tenantId=b932ece7-9cdf-4d94-b4c1-15256e43c7ea" id="news">Sjekk dagens skolenytt!</a>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+    document.addEventListener('scroll', function() {
+        const switchHero = document.querySelector('#arrow');
+        const scrollPosition = window.scrollY;
+        switchHero.style.top = `${4 - scrollPosition * 0.1}%`;
+      });
+    </script>
 
     <footer>
         <a class="footlink" href="Om.html">Kontakt</a>
