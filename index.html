@@ -270,8 +270,10 @@
     <script>
     document.addEventListener('scroll', function() {
         const switchHero = document.querySelector('#arrow');
+        if (switchHero) {
         const scrollPosition = window.scrollY;
         switchHero.style.top = `${0.7 - scrollPosition * 0.02}%`;
+        }
       });
     </script>
 
