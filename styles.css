@@ -58,6 +58,7 @@ h2 {
 	padding: 18%;
 	position: relative;
 	top: 150px;
+	text-align: center;
 }
 
 .fag {
@@ -71,6 +72,18 @@ h2 {
 	border-radius: 4px;
 }
 
+.plantitle {
+	font-family: sans-serif;
+	font-size: 5vh;
+	color: aliceblue;
+	padding: 2vh;
+	margin: 10px 20px;
+	border: #fdfdfd solid 1px;
+	background-color: #5d7cb6;
+	border-radius: 4px;
+	position: relative;
+}
+
 .arbplan {
 	box-shadow: inset slateblue 60px, 50px;
 
@@ -80,6 +93,9 @@ h2 {
 	color:rgb(54, 61, 126);
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 5vh;
+	display: flex;
+	place-items: center;
+	margin: auto;
 	width: 124.3vh;
 	height: 91.9vh;
 	position: relative;
