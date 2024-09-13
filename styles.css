@@ -195,7 +195,9 @@ button {
     border: 1px solid #F3F3F3;
     box-shadow: 0 0 0 1px #707070;
     border-radius: 3px;
-    background: -moz-linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
+    background: linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
+	background: -moz-linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
+	background: -webkit-linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
     font: normal 12px sans-serif;
     color: black;
     text-decoration: none;
@@ -204,6 +206,8 @@ button:hover {
     border: 1px solid #ECF7FD;
     box-shadow: 0 0 0 1px #3C7FB1;
     background: -moz-linear-gradient(top, #EAF6FD 0%, #D9F0FC 50%, #BEE6FD 51%, #A7D9F5 100%);
+	background: linear-gradient(top, #EAF6FD 0%, #D9F0FC 50%, #BEE6FD 51%, #A7D9F5 100%);
+	background: -webkit-linear-gradient(top, #EAF6FD 0%, #D9F0FC 50%, #BEE6FD 51%, #A7D9F5 100%);
 }
 button:active {
 	padding-bottom: 2px;
@@ -211,6 +215,8 @@ button:active {
     border-bottom: 0;
     box-shadow: 0 0 0 1px #2C628B;
     background: -moz-linear-gradient(top, #E5F4FC 0%, #C4E5F6 50%, #98D1EF 51%, #68B3DB 100%);
+	background: linear-gradient(top, #E5F4FC 0%, #C4E5F6 50%, #98D1EF 51%, #68B3DB 100%);
+	background: -webkit-linear-gradient(top, #E5F4FC 0%, #C4E5F6 50%, #98D1EF 51%, #68B3DB 100%);
 }
 
 table {
